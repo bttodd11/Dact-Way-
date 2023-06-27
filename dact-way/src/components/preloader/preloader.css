@@ -1,0 +1,64 @@
+#preloaderSection {
+  background-color: #c4bfb2;
+  height: 100vh;
+  position: relative;
+}
+.preLoadImg{
+    background-position: center;
+    height: 50vh;
+    display: block;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .3;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+ /* Portrait View */
+ @media (min-width: 315px) and (max-width: 450px) { 
+    .preLoadImg{
+        background-position: center;
+        height: 50%;
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle;
+    }
+ }
+
+  /* Landscape View */
+  @media (min-width: 568px) and (max-width: 745px) {
+    .preLoadImg{
+      height: 30%;
+      width: 50%;
+    }
+
+  }
+
+    /* Tablet View */
+ @media (min-width: 740px) and (max-width: 991px) {
+    .preLoadImg{
+        background-position: center;
+        height: 60vh;
+        margin: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+ }
+
+  /* Desktop */
+ @media (min-width: 992px){
+    .preLoadImg{
+        background-position: center;
+        height: 80%;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ }
