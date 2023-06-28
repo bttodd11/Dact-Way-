@@ -2,6 +2,8 @@
   background-color: #c4bfb2;
   height: 100vh;
   position: relative;
+  display: none;
+  ;
 }
 .preLoadImg{
     background-position: center;

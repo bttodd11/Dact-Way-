@@ -1,0 +1,39 @@
+#navSection {
+    background-color: #c4bfb2;
+    margin: auto 0;
+  }
+
+  #navSection .navLink {
+    font-weight: bolder;
+    font-family: 'Kalam';
+    text-decoration: none;
+    margin: 2%;
+    float: inline-end; 
+     }
+
+  .navbar-expand {
+    justify-content: center !important;
+  }
+  
+  
+   /* Portrait View */
+   @media (min-width: 315px) and (max-width: 450px) { 
+
+   }
+  
+    /* Landscape View */
+    @media (min-width: 568px) and (max-width: 745px) {
+ 
+  
+    }
+  
+      /* Tablet View */
+   @media (min-width: 740px) and (max-width: 991px) {
+ 
+  
+   }
+  
+    /* Desktop */
+   @media (min-width: 992px){
+
+   }

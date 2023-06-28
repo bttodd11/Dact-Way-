@@ -1,5 +1,7 @@
 import './App.css';
 import Preloader from './components/preloader/preloader';
+import Nav from './components/nav/nav';
+import { BrowserRouter } from "react-router-dom";
 import $ from 'jquery';
 
 
@@ -10,11 +12,16 @@ function App() {
   }
 
   return (
+    <BrowserRouter>
     <div className="App">
       <div className="preLoader">
         <Preloader />
       </div>
+      <div className="mainSection">
+        <Nav />
+      </div>
     </div>
+    </BrowserRouter>
   );
 }
 
