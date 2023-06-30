@@ -1,8 +1,10 @@
-import "./App.css";
 import Preloader from "./components/preloader/preloader";
 import Nav from "./components/nav/nav";
+import About from "./components/about/about";
+import Stats from "./components/stats/stats"
 import { BrowserRouter } from "react-router-dom";
 import video from "../src/components/video/dactWayVideo.mp4";
+import "./App.css";
 import $ from "jquery";
 
 function App() {
@@ -23,7 +25,8 @@ function App() {
               <source src={video} type="video/mp4" />
             </video>
           </div>
-          {/* <Nav /> */}
+      <About />
+      <Stats />
         </div>
       </div>
     </BrowserRouter>

@@ -1,0 +1,12 @@
+#aboutSection {
+  color: black;
+  text-align: center;
+}
+
+.aboutTitle {
+  font-size: 60px;
+}
+
+.aboutText {
+  text-align: center;
+}
