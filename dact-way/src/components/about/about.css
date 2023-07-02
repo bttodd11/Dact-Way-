@@ -10,3 +10,19 @@
 .aboutText {
   text-align: center;
 }
+  
+  /* Portrait View */
+  @media (min-width: 315px) and (max-width: 450px) {
+
+  }
+  
+  /* Landscape View */
+  @media (min-width: 568px) and (max-width: 745px) {}
+  
+  /* Tablet View */
+  @media (min-width: 740px) and (max-width: 991px) {}
+  
+  /* Desktop */
+  @media (min-width: 992px) {
+  
+  } 

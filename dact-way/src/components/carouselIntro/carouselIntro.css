@@ -1,0 +1,23 @@
+.introPhoto {
+    height: 250px;
+    width: 100vw;
+}
+
+  /* Portrait View */
+  @media (min-width: 315px) and (max-width: 450px) {
+
+  }
+  
+  /* Landscape View */
+  @media (min-width: 568px) and (max-width: 745px) {}
+  
+  /* Tablet View */
+  @media (min-width: 740px) and (max-width: 991px) {}
+  
+  /* Desktop */
+  @media (min-width: 992px) {
+    .introPhoto{
+    height: 500px;
+    }
+  
+  } 

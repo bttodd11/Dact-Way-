@@ -1,0 +1,47 @@
+#servicesSection {
+}
+#servicesDetails {
+    margin-top: 15%;
+    text-align: center;
+}
+ 
+.servicesTitle {
+    text-align: center;
+    font-size: 60px;
+}
+.servicesHeadlineText {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20%;
+    letter-spacing: 2px;
+}
+.servicesBoldHeader {
+    font-size: 22px;
+    text-align: center;
+}
+.servicesText {
+    font-size: 14px;
+    text-align: center;
+}
+.serviceIcon {
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+  
+  /* Portrait View */
+  @media (min-width: 315px) and (max-width: 450px) {
+ 
+  
+  }
+  
+  /* Landscape View */
+  @media (min-width: 568px) and (max-width: 745px) {}
+  
+  /* Tablet View */
+  @media (min-width: 740px) and (max-width: 991px) {}
+  
+  /* Desktop */
+  @media (min-width: 992px) {
+  
+  }

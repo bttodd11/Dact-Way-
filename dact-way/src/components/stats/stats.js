@@ -19,8 +19,10 @@ let stats = () => {
       <p className="statTitle">Statistics</p>
  
 
-<Container>
-    <Card style={{ width: '18rem' }}>
+<Container fluid>
+  <Row className="justify-content-center">
+    <Col sm={12} md={6}>
+    <Card style={{ width: '18rem', margin: 'auto' }}>
     <Card.Img variant="top" className="usIcon" src={unitedStates} />
       <Card.Body>
       <Card.Title>55M +</Card.Title>
@@ -33,8 +35,10 @@ let stats = () => {
         </Card.Text>
       </Card.Body>
     </Card>
+    </Col>
 
-    <Card style={{ width: '18rem', marginTop: "5%" }}>
+<Col sm={12} md={6}>
+    <Card style={{ width: '18rem', margin: 'auto' }}>
     <Card.Img variant="top" className="usIcon" src={texas} />
       <Card.Body>
       <Card.Title>4.58M +</Card.Title>
@@ -47,39 +51,9 @@ let stats = () => {
         </Card.Text>
       </Card.Body>
     </Card>
-    </Container>
-    
-
-  
-        {/* <Row>
-        <Col>
-       <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={unitedStates} />
-      <Card.Body>
-        <Card.Title>55M +</Card.Title>
-        <Card.Text>
-        United States Confirmed Cases
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-
-      </Card.Body>
-    </Card>
     </Col>
-    </Row>  */}
-
-
-        {/* <div className="statsBox" col>
-        <h6>55M +</h6>
-        <p>United States Confirmed Cases</p>
-        </div>
-        </Col>
-        <Col>
-        <div className="statsBox">
-        <h6>825k +</h6>
-        <p>United States Deaths</p>
-        </div>
-        </Col>
-        </Row> */} 
+    </Row>
+    </Container> 
     </div>
   )
 }
