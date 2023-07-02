@@ -16,9 +16,6 @@ import { Container } from "react-bootstrap";
 let stats = () => {
   return(
     <div id="statsSection">
-      <p className="statTitle">Statistics</p>
- 
-
 <Container fluid>
   <Row className="justify-content-center">
     <Col sm={12} md={6}>

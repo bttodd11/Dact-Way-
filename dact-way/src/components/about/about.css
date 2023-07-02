@@ -1,14 +1,18 @@
 #aboutSection {
-  color: black;
-  text-align: center;
+text-align: center;
 }
 
 .aboutTitle {
   font-size: 60px;
+  color: white;
 }
 
 .aboutText {
   text-align: center;
+}
+.promiseTitle {
+  text-align: center;
+  font-size: 30px;
 }
   
   /* Portrait View */
