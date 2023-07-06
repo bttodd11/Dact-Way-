@@ -22,12 +22,13 @@ function App() {
       $(".mainSection").show();
   }
 
-  window.onload = function(){
-    setTimeout(()=> {   
+  window.addEventListener('load', function () {
+    setTimeout(() => {
       removePreLoader();
-      showMainSection()
+      showMainSection();
     }, 2000)
-  }
+  })
+
 
   return (
     <BrowserRouter>
