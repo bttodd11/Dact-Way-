@@ -16,15 +16,14 @@ import React, { useState, useEffect } from 'react';
 
 function App() {
 
-
-  window.addEventListener('load', function () {
-    setTimeout(() => {
-      "hit"
-      document.querySelector('.preLoader').style.display = 'none';
-      document.querySelector('.mainSection').style.display = 'block';
-    }, 1200)
-  })
-
+  useEffect(() => {
+    window.addEventListener('load', function () {
+      setTimeout(() => {
+        "hit"
+        document.querySelector('.preLoader').style.display = 'none';
+        document.querySelector('.mainSection').style.display = 'block';
+      }, 1200)
+    })  }, []);
 
   return (
       <div className="App">
