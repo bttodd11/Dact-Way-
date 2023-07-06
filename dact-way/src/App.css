@@ -4,11 +4,10 @@ body {
 .mainSection {
   background-repeat: no-repeat;
   background-size: cover;
-  background-blend-mode: multiply;
-  background-color: white;
   height: 100vh;
   width: 100vw;
   padding: 0;
+  background-color: #c8c7bc;
 }
 
 .videoContainer {
@@ -61,6 +60,7 @@ body {
     width: 100vw;
     background-size: cover;
     position: relative;
+    background-color: #c8c7bc;
   }
   
   .hero{
@@ -72,7 +72,12 @@ body {
     width: 100vw;
     top: 0;
     left: 0;
+
   }
   .videoContainer {
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
   }
 }
