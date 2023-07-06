@@ -6,7 +6,6 @@
 }
 .preLoadImg{
     background-position: center;
-    /* height: 50vh; */
     display: block;
     margin: auto;
     margin-left: auto;
@@ -49,7 +48,6 @@
         background-position: center;
         height: 60vh;
         margin: auto;
-        display: block;
         margin-left: auto;
         margin-right: auto;
     }
@@ -64,5 +62,7 @@
         width: 50%;
         margin-left: auto;
         margin-right: auto;
+        -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+        filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
     }
  }

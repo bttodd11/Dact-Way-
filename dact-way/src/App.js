@@ -17,7 +17,6 @@ import React, { useState, useEffect } from 'react';
 function App() {
 
 
-  useEffect(() => {
   window.addEventListener('load', function () {
     setTimeout(() => {
       "hit"
@@ -25,7 +24,6 @@ function App() {
       document.querySelector('.mainSection').style.display = 'block';
     }, 1200)
   })
-})
 
 
   return (
