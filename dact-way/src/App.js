@@ -14,19 +14,12 @@ import "./App.css";
 import $ from "jquery";
 
 function App() {
-  const removePreLoader = () => {
-      $(".preLoader").hide();
-  };
-
-  const showMainSection = () => {
-      $(".mainSection").show();
-  }
 
   window.addEventListener('load', function () {
     setTimeout(() => {
-      removePreLoader();
-      showMainSection();
-    }, 2000)
+      $(".preLoader").hide();
+      $(".mainSection").show();
+    }, 1200)
   })
 
 
