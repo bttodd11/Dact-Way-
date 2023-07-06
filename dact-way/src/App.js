@@ -15,8 +15,19 @@ import $ from "jquery";
 
 function App() {
   const removePreLoader = () => {
-    $(".preLoader").hide();
+      $(".preLoader").hide();
   };
+
+  const showMainSection = () => {
+      $(".mainSection").show();
+  }
+
+  window.onload = function(){
+    setTimeout(()=> {   
+      removePreLoader();
+      showMainSection()
+    }, 2000)
+  }
 
   return (
     <BrowserRouter>
