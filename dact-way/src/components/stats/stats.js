@@ -21,12 +21,12 @@ let stats = () => {
     <Card.Img variant="top" className="usIcon" src={unitedStates} />
       <Card.Body>
       <Card.Title className="statTitle">55M +</Card.Title>
-      <Card.Text>
-        United States Confirmed Cases
+      <Card.Text className="statText">
+        United States Confirmed COVID-19 Cases
         </Card.Text>
         <Card.Title className="statTitle">825k +</Card.Title>
-      <Card.Text>
-      United States Deaths
+      <Card.Text className="statText">
+      United States COVID-19 Deaths
         </Card.Text>
       </Card.Body>
     </Card>
@@ -37,12 +37,12 @@ let stats = () => {
     <Card.Img variant="top" className="usIcon" src={texas} />
       <Card.Body>
       <Card.Title className="statTitle">4.58M +</Card.Title>
-      <Card.Text>
-        Texas Confirmed Cases
+      <Card.Text className="statText">
+        Texas Confirmed COVID-19 Cases
         </Card.Text>
         <Card.Title className="statTitle">825k +</Card.Title>
-      <Card.Text>
-      Texas Deaths
+      <Card.Text className="statText">
+      Texas COVID-19 Deaths
         </Card.Text>
       </Card.Body>
     </Card>

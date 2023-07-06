@@ -27,6 +27,9 @@
 
 /* Portrait View */
 @media (min-width: 315px) and (max-width: 450px) {
+    .statText {
+        font-size: 12px;
+    }
   }
   
   /* Landscape View */
