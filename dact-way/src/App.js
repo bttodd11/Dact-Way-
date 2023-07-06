@@ -24,7 +24,6 @@ function App() {
 
 
   return (
-    <BrowserRouter>
       <div className="App">
         <div className="preLoader">
           <Preloader />
@@ -46,7 +45,6 @@ function App() {
           <Carousel />
         </div>
       </div>
-    </BrowserRouter>
   );
 }
 
