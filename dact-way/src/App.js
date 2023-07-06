@@ -12,15 +12,20 @@ import { BrowserRouter } from "react-router-dom";
 import video from "../src/components/video/dactWayVideo.mp4";
 import "./App.css";
 import $ from "jquery";
+import React, { useState, useEffect } from 'react';
 
 function App() {
 
+
+  useEffect(() => {
   window.addEventListener('load', function () {
     setTimeout(() => {
-      $(".preLoader").hide();
-      $(".mainSection").show();
+      "hit"
+      document.querySelector('.preLoader').style.display = 'none';
+      document.querySelector('.mainSection').style.display = 'block';
     }, 1200)
   })
+})
 
 
   return (
