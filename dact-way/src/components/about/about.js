@@ -27,7 +27,7 @@ let about = () => {
           <p className="promiseTitle">Our Promise</p>
         </Row>
         <Row>
-          <p className="aboutText">
+          <p className="promiseText">
             The clients peace of mind is our prime focus! We guarantee
             high-quality work to your total satisfaction!!
           </p>

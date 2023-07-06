@@ -1,0 +1,63 @@
+#testimoniesSection {
+    background-color: #c8c7bc;
+}
+
+.testimoniesTitle {
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #c8c7bc;
+    text-shadow: 
+    0 0 5px black,
+    0 0 50px #fff,
+    0 0 20px black,
+    0 0 20px black,
+    0 0 70px black,
+    0 0 70px #c8c7bc,
+    0 0 70px #c8c7bc;
+    font-family: 'Carter One', cursive;
+    padding-top: 4%;
+
+}
+.testimoniesBox {
+    text-align: center;
+}
+.author {
+    font-style: italic;
+    font-weight: 900;
+}
+.dactWay {
+    color: #FFD700;
+    text-shadow:
+    0 0 13px black,
+    0 0 20px white,
+    0 0 10px #FFD700
+    
+}
+.quote {
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+/* Portrait View */
+@media (min-width: 315px) and (max-width: 450px) {
+  }
+  
+  /* Landscape View */
+  @media (min-width: 568px) and (max-width: 745px) {}
+  
+  /* Tablet View */
+  @media (min-width: 740px) and (max-width: 991px) {}
+  
+  /* Desktop */
+  @media (min-width: 992px) {
+
+    .testimoniesTitle {
+        font-size: 65px;
+    }
+    .quote {
+        font-size: 20px;
+    }
+    
+  
+  
+  }

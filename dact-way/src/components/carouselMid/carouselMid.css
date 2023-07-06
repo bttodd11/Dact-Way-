@@ -1,0 +1,25 @@
+.midPhoto {
+    height: 100%;
+    width: 100vw;
+    filter: brightness(50%);
+    border: 2px solid black;
+}
+
+/* Portrait View */
+@media (min-width: 315px) and (max-width: 450px) {}
+
+/* Landscape View */
+@media (min-width: 568px) and (max-width: 745px) {}
+
+/* Tablet View */
+@media (min-width: 740px) and (max-width: 991px) {}
+
+/* Desktop */
+@media (min-width: 992px) {
+    .midPhoto {
+        height: 100%;
+        border: 5px solid black;
+
+    }
+
+}

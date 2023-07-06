@@ -1,12 +1,47 @@
 #statsSection {
     text-align: center;
+    background-color: #c8c7bc;
+    padding-top: 10%;
+    font-family: 'Ysabeau SC', sans-serif;
 }
 
 .statTitle {
-    font-size: 60px;
+    font-size: 28px !important;
+    font-weight: 900 !important;
 }
 .usIcon {
     width: 200px;
     height: 200px;
     padding: 10%;
+    -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
 }
+.cardBorder {
+    width: 18rem;
+    margin: auto;
+    margin-top: 15%!important;
+    border: 2px solid black !important;
+        -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+}
+
+/* Portrait View */
+@media (min-width: 315px) and (max-width: 450px) {
+  }
+  
+  /* Landscape View */
+  @media (min-width: 568px) and (max-width: 745px) {}
+  
+  /* Tablet View */
+  @media (min-width: 740px) and (max-width: 991px) {}
+  
+  /* Desktop */
+  @media (min-width: 992px) {
+
+    #statsSection {
+        padding-top: 1%;
+    }
+  
+
+  
+  }

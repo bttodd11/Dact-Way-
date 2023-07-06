@@ -1,32 +1,94 @@
 #aboutSection {
-text-align: center;
+  text-align: center;
+  background-color: #c8c7bc;
+  margin-top: -2%;
 }
 
 .aboutTitle {
-  font-size: 60px;
-  color: white;
+  font-size: 50px;
+  color: #c8c7bc;
+  text-shadow:
+    0 0 5px black,
+    0 0 50px #fff,
+    0 0 20px black,
+    0 0 20px black,
+    0 0 70px black,
+    0 0 70px #c8c7bc,
+    0 0 70px #c8c7bc;
+  letter-spacing: 5px;
+  font-family: 'Carter One', cursive;
+  padding-top: 4%;
 }
 
 .aboutText {
   text-align: center;
+  font-family: 'Ysabeau SC', sans-serif;
 }
+
 .promiseTitle {
   text-align: center;
-  font-size: 30px;
+  font-size: 60px;
+  font-family: 'Beau Rivage', cursive;
 }
-  
-  /* Portrait View */
-  @media (min-width: 315px) and (max-width: 450px) {
 
+.promiseText {
+  text-align: center;
+  font-family: 'Ysabeau SC', sans-serif;
+}
+
+/* Portrait View */
+@media (min-width: 315px) and (max-width: 450px) {
+
+  .promiseTitle {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    text-shadow:
+      0 0 13px black,
+      0 0 20px white,
+      0 0 10px #FFD700 !important
   }
-  
-  /* Landscape View */
-  @media (min-width: 568px) and (max-width: 745px) {}
-  
-  /* Tablet View */
-  @media (min-width: 740px) and (max-width: 991px) {}
-  
-  /* Desktop */
-  @media (min-width: 992px) {
-  
-  } 
+}
+
+/* Landscape View */
+@media (min-width: 568px) and (max-width: 745px) {}
+
+/* Tablet View */
+@media (min-width: 740px) and (max-width: 991px) {}
+
+/* Desktop */
+@media (min-width: 992px) {
+
+  .aboutTitle {
+    font-size: 65px;
+    
+  }
+
+  .promiseTitle {
+    padding-top: 5%;
+    font-size: 90px;
+    color: white;
+    letter-spacing: 12px;
+    text-shadow:
+      0 0 13px black,
+      0 0 20px white,
+      0 0 10px #FFD700
+  }
+
+  .aboutText {
+    text-align: center;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 25px;
+    width: 60% !important;
+    margin: auto;
+  }
+
+  .promiseText {
+    font-size: 25px;
+    width: 50% !important;
+    padding-bottom: 3%;
+    margin: auto;
+    font-weight:500
+  }
+
+}

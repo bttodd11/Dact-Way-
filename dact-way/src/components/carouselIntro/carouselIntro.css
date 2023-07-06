@@ -1,5 +1,5 @@
 .introPhoto {
-    height: 250px;
+    height: 100%;
     width: 100vw;
 }
 
@@ -17,7 +17,10 @@
   /* Desktop */
   @media (min-width: 992px) {
     .introPhoto{
-    height: 500px;
+    height: 100%;
+    filter: brightness(50%);
+    border: 5px solid black ;
     }
+
   
   } 
