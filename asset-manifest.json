@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Dact-Way-/static/css/main.33013269.css",
-    "main.js": "/Dact-Way-/static/js/main.7a4bcef1.js",
+    "main.js": "/Dact-Way-/static/js/main.b9a09381.js",
     "static/js/787.11fac3c5.chunk.js": "/Dact-Way-/static/js/787.11fac3c5.chunk.js",
     "static/media/dactWayVideo.mp4": "/Dact-Way-/static/media/dactWayVideo.193f27ae9803f7a957a9.mp4",
     "static/media/roomWindow.png": "/Dact-Way-/static/media/roomWindow.7ffad6269bb0df4ecfc4.png",
@@ -17,11 +17,11 @@
     "static/media/houseIcon.png": "/Dact-Way-/static/media/houseIcon.dd2415a82a8607b60559.png",
     "index.html": "/Dact-Way-/index.html",
     "main.33013269.css.map": "/Dact-Way-/static/css/main.33013269.css.map",
-    "main.7a4bcef1.js.map": "/Dact-Way-/static/js/main.7a4bcef1.js.map",
+    "main.b9a09381.js.map": "/Dact-Way-/static/js/main.b9a09381.js.map",
     "787.11fac3c5.chunk.js.map": "/Dact-Way-/static/js/787.11fac3c5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.33013269.css",
-    "static/js/main.7a4bcef1.js"
+    "static/js/main.b9a09381.js"
   ]
 }
