@@ -23,13 +23,13 @@ const App = () => {
 
   $(document).ready(function() {
     $('.mainSection').hide();
-    $(window).on('load', function () {
-      setTimeout(removePreLoader, 1500)
+    $(window).on('load', function() {
+      setTimeout(removePreLoader, 3000)
     })
   })
 
   return (
-    <div className="App">
+    <body>
       <div className="preLoader">
         <Preloader />
       </div>
@@ -49,7 +49,7 @@ const App = () => {
         <Contact />
         <Carousel />
       </div>
-    </div>
+      </body>
   );
 }
 
