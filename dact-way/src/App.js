@@ -12,41 +12,42 @@ import { BrowserRouter } from "react-router-dom";
 import video from "../src/components/video/dactWayVideo.mp4";
 import "./App.css";
 import $ from "jquery";
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 function App() {
+  const removePreLoader = () => {
+    $(".preLoader").hide();
+    $(".mainSection").show();
+  };
 
-  useEffect(() => {
-    window.addEventListener('load', function () {
-      setTimeout(() => {
-        "hit"
-        document.querySelector('.preLoader').style.display = 'none';
-        document.querySelector('.mainSection').style.display = 'block';
-      }, 1200)
-    })  }, []);
+  $(document).ready(function () {
+    $(window).on("load", function () {
+      setTimeout(removePreLoader, 1500);
+    });
+  });
 
   return (
-      <div className="App">
-        <div className="preLoader">
-          <Preloader />
-        </div>
-        <div className="mainSection">
-          <Nav />
-          <div className="videoContainer">
-            <video autoPlay muted loop playsInline className="hero">
-              <source src={video} type="video/mp4" />
-            </video>
-          </div>
-          <About />
-          <CarouselIntro />
-          <Services />
-          <CarouselMid />
-          <Stats />
-          <Testimonies />
-          <Contact />
-          <Carousel />
-        </div>
+    <div className="App">
+      <div className="preLoader">
+        <Preloader />
       </div>
+      <div className="mainSection">
+        <Nav />
+        <div className="videoContainer">
+          <video autoPlay muted loop playsInline className="hero">
+            <source src={video} type="video/mp4" />
+          </video>
+        </div>
+        <About />
+        <CarouselIntro />
+        <Services />
+        <CarouselMid />
+        <Stats />
+        <Testimonies />
+        <Contact />
+        <Carousel />
+      </div>
+    </div>
   );
 }
 
