@@ -12,7 +12,7 @@ import { BrowserRouter } from "react-router-dom";
 import video from "../src/components/video/dactWayVideo.mp4";
 import "./App.css";
 import $ from "jquery";
-=
+
 const App = () => {
 
   const removePreLoader = () => {
