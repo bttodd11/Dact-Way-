@@ -1,3 +1,4 @@
+import React from "react";
 import Preloader from "./components/preloader/preloader";
 import Nav from "./components/nav/nav";
 import About from "./components/about/about";
@@ -11,7 +12,7 @@ import CarouselMid from "./components/carouselMid/carouselMid";
 import { BrowserRouter } from "react-router-dom";
 import video from "../src/components/video/dactWayVideo.mp4";
 import "./App.css";
-import $ from "jquery";
+import $ from 'jquery';
 
 const App = () => {
 
@@ -23,9 +24,9 @@ const App = () => {
   $(document).ready(function() {
     $('.mainSection').hide();
     $(window).on('load', function () {
-      setTimeout(removePreLoader, 1500);
-    });
-  });
+      setTimeout(removePreLoader, 1500)
+    })
+  })
 
   return (
     <div className="App">
