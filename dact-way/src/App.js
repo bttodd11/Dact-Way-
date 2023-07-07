@@ -12,17 +12,17 @@ import { BrowserRouter } from "react-router-dom";
 import video from "../src/components/video/dactWayVideo.mp4";
 import "./App.css";
 import $ from "jquery";
-import React, { useState, useEffect } from "react";
+=
+const App = () => {
 
-function App() {
   const removePreLoader = () => {
-    $(".preLoader").hide();
-    $(".mainSection").show();
+    $('.preLoader').hide();
+    $('.mainSection').show();
   };
 
-  $(document).ready(function () {
-    $(".mainSection").hide();
-    $(window).on("load", function () {
+  $(document).ready(function() {
+    $('.mainSection').hide();
+    $(window).on('load', function () {
       setTimeout(removePreLoader, 1500);
     });
   });
