@@ -12,7 +12,7 @@ let about = () => {
         </Row>
         <Row>
           <p className="aboutText">
-            DACT Way was established on the belief that quality workmanship and
+           <span className="dactWay"> DACT Way </span> was established on the belief that quality workmanship and
             honesty are the keys to true customer satisfaction. Headquartered in
             Dallas, Texas, our extensive portfolio consists of retail chains,
             grocery stores, medical facilities, shopping malls, professional

@@ -36,6 +36,16 @@
   font-family: 'Ysabeau SC', sans-serif;
 }
 
+.dactWay {
+  color: #FFD700;
+  letter-spacing: 3px;
+  font-family: 'Caveat', cursive;
+  text-shadow:
+  0 0 13px black,
+  0 0 20px white,
+  0 0 10px #FFD700,
+}
+
 /* Portrait View */
 @media (min-width: 315px) and (max-width: 450px) {
 
