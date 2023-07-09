@@ -1,9 +1,10 @@
 #contactSection {
     background-color: #c8c7bc;
+    padding-bottom: 5%;
 }
 
 .contactTitle {
-    font-size: 40px;
+    font-size: 65px;
     text-align: center;
     letter-spacing: 5px;
     color: #c8c7bc;
@@ -15,8 +16,21 @@
     0 0 70px black,
     0 0 70px #c8c7bc,
     0 0 70px #c8c7bc;
-    font-family: 'Carter One', cursive;
+    font-family: 'Shadows Into Light', cursive;    
     padding-top: 4%;
+}
+
+.contactCard {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+}
+
+.contactIcon {
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 
@@ -32,10 +46,23 @@
 
 /* Desktop */
 @media (min-width: 992px) {
-
-    .contactTitle {
-        font-size: 65px;
+    #contactSection {
+        padding-bottom: 7%;
+        margin: auto;
     }
+    .contactTitle {
+        font-size: 85px;
+    }
+    .contactCard {
+        width: 30%;
+        margin: auto;
+        text-align: center;
+    }
+    .contactIcon {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
 
 
 }

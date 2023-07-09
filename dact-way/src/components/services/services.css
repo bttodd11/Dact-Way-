@@ -21,9 +21,8 @@
         0 0 70px black,
         0 0 70px #c8c7bc,
         0 0 70px #c8c7bc;
-    font-family: 'Carter One', cursive;
-    padding-top: 4%;
-
+        font-family: 'Shadows Into Light', cursive;
+     padding-top: 4%;
 }
 
 .servicesHeadlineText {
@@ -68,6 +67,7 @@
     font-size: 35px;
     text-align: center;
     text-decoration: underline;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 #servicesOffering {
@@ -98,6 +98,9 @@
     }
     #servicesDetails {
         margin-top: 5%;
+    }
+    .servicesTitle{
+        font-size: 85px;
     }
 
     .serviceIcon {

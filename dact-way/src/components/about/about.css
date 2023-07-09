@@ -5,7 +5,7 @@
 }
 
 .aboutTitle {
-  font-size: 50px;
+  font-size: 65px;
   color: #c8c7bc;
   text-shadow:
     0 0 5px black,
@@ -16,14 +16,13 @@
     0 0 70px #c8c7bc,
     0 0 70px #c8c7bc;
   letter-spacing: 5px;
-  font-family: 'Carter One', cursive;
-  padding-top: 4%;
+  font-family: 'Shadows Into Light', cursive;
+    padding-top: 4%;
 }
 
 .aboutText {
   text-align: center;
-  font-family: 'Ysabeau SC', sans-serif;
-}
+font-family: 'Shadows Into Light', cursive;}
 
 .promiseTitle {
   text-align: center;
@@ -52,7 +51,7 @@
   .promiseTitle {
     text-align: center;
     font-size: 60px;
-    color: white;
+    color: #FFD700;
     text-shadow:
       0 0 13px black,
       0 0 20px white,
@@ -70,14 +69,13 @@
 @media (min-width: 992px) {
 
   .aboutTitle {
-    font-size: 65px;
-    
+    font-size: 85px;   
   }
 
   .promiseTitle {
     padding-top: 5%;
     font-size: 90px;
-    color: white;
+    color: #FFD700;
     letter-spacing: 12px;
     text-shadow:
       0 0 13px black,

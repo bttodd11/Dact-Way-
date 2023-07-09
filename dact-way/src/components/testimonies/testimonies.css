@@ -3,7 +3,7 @@
 }
 
 .testimoniesTitle {
-    font-size: 50px;
+    font-size: 65px;
     text-align: center;
     letter-spacing: 5px;
     color: #c8c7bc;
@@ -15,8 +15,8 @@
     0 0 70px black,
     0 0 70px #c8c7bc,
     0 0 70px #c8c7bc;
-    font-family: 'Carter One', cursive;
-    padding-top: 4%;
+    font-family: 'Shadows Into Light', cursive;
+     padding-top: 4%;
 
 }
 .testimoniesBox {
@@ -53,12 +53,9 @@
   @media (min-width: 992px) {
 
     .testimoniesTitle {
-        font-size: 65px;
+        font-size: 85px;
     }
     .quote {
         font-size: 20px;
     }
-    
-  
-  
   }
