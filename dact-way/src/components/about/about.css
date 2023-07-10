@@ -22,7 +22,7 @@
 
 .aboutText {
   text-align: center;
-font-family: 'Shadows Into Light', cursive;}
+  font-family: 'Josefin Sans', sans-serif;}
 
 .promiseTitle {
   text-align: center;
@@ -32,8 +32,7 @@ font-family: 'Shadows Into Light', cursive;}
 
 .promiseText {
   text-align: center;
-  font-family: 'Ysabeau SC', sans-serif;
-}
+  font-family: 'Josefin Sans', sans-serif;}
 
 .dactWay {
   color: #FFD700;
@@ -85,7 +84,7 @@ font-family: 'Shadows Into Light', cursive;}
 
   .aboutText {
     text-align: center;
-    font-family: 'Ysabeau SC', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 25px;
     width: 60% !important;
     margin: auto;

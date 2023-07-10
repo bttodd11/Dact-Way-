@@ -1,6 +1,6 @@
 #servicesSection {
     background-color: #c8c7bc;
-    font-family: 'Ysabeau SC', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #servicesDetails {
@@ -21,8 +21,8 @@
         0 0 70px black,
         0 0 70px #c8c7bc,
         0 0 70px #c8c7bc;
-        font-family: 'Shadows Into Light', cursive;
-     padding-top: 4%;
+    font-family: 'Shadows Into Light', cursive;
+    padding-top: 4%;
 }
 
 .servicesHeadlineText {
@@ -41,11 +41,12 @@
     font-size: 14px;
     text-align: center;
 }
-  .servicesTextIcon {
-        font-size: 18px;
-        font-weight: 700;
-        text-align: center;
-    }
+
+.servicesTextIcon {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
 
 .serviceIcon {
     height: 125px;
@@ -72,7 +73,6 @@
 
 #servicesOffering {
     margin-bottom: 10%;
-    /* background-color: #322F2A; */
 }
 
 /* Portrait View */
@@ -93,13 +93,16 @@
         margin-bottom: 5%;
         letter-spacing: 2px;
     }
+
     #servicesOffering {
         margin-bottom: 1%;
     }
+
     #servicesDetails {
         margin-top: 5%;
     }
-    .servicesTitle{
+
+    .servicesTitle {
         font-size: 85px;
     }
 
@@ -110,22 +113,27 @@
     .servicesBoldHeader {
         font-size: 30px;
     }
+
     .servicesText {
         font-size: 20px;
     }
+
     .servicesTextIcon {
         font-size: 25px;
         font-weight: 700;
         text-align: center;
     }
+
     .servicesMidTitle {
         font-size: 45px;
     }
+
     .servicesHeadlineText {
         text-align: center;
         font-size: 25px;
-        font-weight:500
+        font-weight: 500
     }
+
     .facilityIcon {
         height: 100px;
     }

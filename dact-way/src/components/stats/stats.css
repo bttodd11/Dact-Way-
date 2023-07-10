@@ -2,8 +2,7 @@
     text-align: center;
     background-color: #c8c7bc;
     padding-top: 10%;
-    font-family: 'Ysabeau SC', sans-serif;
-}
+    font-family: 'Josefin Sans', sans-serif;}
 
 .statTitle {
     font-size: 28px !important;
@@ -22,7 +21,7 @@
     margin: auto;
     margin-top: 15%!important;
     border: 2px solid black !important;
-        -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+    -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
     filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
 }
 
