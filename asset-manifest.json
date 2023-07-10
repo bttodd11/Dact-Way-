@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/Dact-Way-/static/css/main.7a5fccf3.css",
-    "main.js": "/Dact-Way-/static/js/main.fcc8ef18.js",
+    "main.css": "/Dact-Way-/static/css/main.6ca94967.css",
+    "main.js": "/Dact-Way-/static/js/main.ea6c391c.js",
     "static/media/dactWayVideo.mp4": "/Dact-Way-/static/media/dactWayVideo.193f27ae9803f7a957a9.mp4",
+    "static/media/window.png": "/Dact-Way-/static/media/window.2d982d47bde10a31b2c2.png",
     "static/media/roomWindow.png": "/Dact-Way-/static/media/roomWindow.7ffad6269bb0df4ecfc4.png",
     "static/media/roomService.png": "/Dact-Way-/static/media/roomService.65670982dcbf149ebd9b.png",
+    "static/media/mainView.jpeg": "/Dact-Way-/static/media/mainView.f88caffb14204c2f5e97.jpeg",
+    "static/media/houseMop.jpeg": "/Dact-Way-/static/media/houseMop.bd13f944fab87f0ab90f.jpeg",
+    "static/media/roomClean2.jpeg": "/Dact-Way-/static/media/roomClean2.ae49884e777af0630735.jpeg",
     "static/media/backgroundImageMobile.png": "/Dact-Way-/static/media/backgroundImageMobile.90ac684fe03b6b7d8ae2.png",
     "static/media/garageWash.png": "/Dact-Way-/static/media/garageWash.9cbd9995e810151a0ea0.png",
     "static/media/backgroundImage2.jpg": "/Dact-Way-/static/media/backgroundImage2.3379d505197479f2b6dc.jpg",
+    "static/media/outsideWash.jpeg": "/Dact-Way-/static/media/outsideWash.2abfab741772fb7581c6.jpeg",
     "static/media/dactWayLogo.png": "/Dact-Way-/static/media/dactWayLogo.29304829001d5824ac2a.png",
     "static/media/blackDactWayLogo.PNG": "/Dact-Way-/static/media/blackDactWayLogo.abac5dc3c32a93bb8f1a.PNG",
     "static/media/unitedStates.png": "/Dact-Way-/static/media/unitedStates.4cf54f9c3d89fd7f6a12.png",
@@ -15,11 +20,11 @@
     "static/media/texas.png": "/Dact-Way-/static/media/texas.92617ec312e94231cb74.png",
     "static/media/houseIcon.png": "/Dact-Way-/static/media/houseIcon.dd2415a82a8607b60559.png",
     "index.html": "/Dact-Way-/index.html",
-    "main.7a5fccf3.css.map": "/Dact-Way-/static/css/main.7a5fccf3.css.map",
-    "main.fcc8ef18.js.map": "/Dact-Way-/static/js/main.fcc8ef18.js.map"
+    "main.6ca94967.css.map": "/Dact-Way-/static/css/main.6ca94967.css.map",
+    "main.ea6c391c.js.map": "/Dact-Way-/static/js/main.ea6c391c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a5fccf3.css",
-    "static/js/main.fcc8ef18.js"
+    "static/css/main.6ca94967.css",
+    "static/js/main.ea6c391c.js"
   ]
 }
