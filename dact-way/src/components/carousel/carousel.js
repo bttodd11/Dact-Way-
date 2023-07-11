@@ -4,9 +4,7 @@ import image2 from '../img/roomWindow.png';
 import image3 from '../img/garageWash.png';
 import image4 from '../img/roomClean2.jpeg';
 import image5 from '../img/window.png'
-import image6 from '../img/mainView.jpeg';
-import image7 from '../img/outsideWash.jpeg';
-import image8 from '../img/houseMop.jpeg';
+
 
 
 
@@ -32,15 +30,6 @@ let carousel = () => {
     </div>
     <div>
        <img src={image5} className="carouselImage" alt="Window" />
-    </div>
-    <div>
-       <img src={image6} className="carouselImage" alt="Main View" />
-    </div>
-    <div>
-       <img src={image7} className="carouselImage" alt="Outside Wash"/>
-    </div>
-    <div>
-       <img src={image8} className="carouselImage" alt="House Mop"  />
     </div>
 </Carousel>
 )
