@@ -24,7 +24,7 @@ const App = () => {
   $(document).ready(function() {
     $('.mainSection').hide();
     $(window).on('load', function() {
-      setTimeout(removePreLoader, 3000)
+      setTimeout(removePreLoader, 1400)
     })
   })
 
