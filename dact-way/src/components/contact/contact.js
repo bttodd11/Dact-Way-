@@ -17,9 +17,9 @@ let contact = () => {
       <Card className="contactCard">
       <Card.Body>
       <Card.Text className="statText">
-          <img src={facebookIcon} className="contactIcon" />
-          <img src={instagramIcon} className="contactIcon" />
-          <img src={emailIcon} className="contactIcon" />
+          <img src={facebookIcon} alt="Facebook Icon" className="contactIcon" />
+          <img src={instagramIcon} alt="Instagram Icon" className="contactIcon" />
+          <img src={emailIcon} alt="Email Icon" className="contactIcon" />
         </Card.Text>
       </Card.Body>
     </Card>

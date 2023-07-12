@@ -7,10 +7,6 @@ import unitedStates from "../img/unitedStates.png";
 import "./stats.css";
 import { Container } from "react-bootstrap";
 
-
-
-
-
 let stats = () => {
   return(
     <div id="statsSection">

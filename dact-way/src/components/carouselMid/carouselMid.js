@@ -5,7 +5,7 @@ import "./carouselMid.css";
 let carouselMid = () => {
   return (
     <div className="carouselMidSection">
-      <img src={MidPhoto} className="midPhoto" />
+      <img src={MidPhoto} alt="Carousel Image" className="midPhoto" />
     </div>
   );
 };

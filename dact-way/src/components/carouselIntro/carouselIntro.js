@@ -6,7 +6,7 @@ import "./carouselIntro.css";
 let carouselIntro = () => {
   return(
     <div className="carouselIntroSection">
-      <img src={introPhoto} className="introPhoto"/>
+      <img src={introPhoto} alt="Carousel Image" className="introPhoto"/>
     </div>
   )
 }

@@ -9,7 +9,6 @@ import Services from "./components/services/services";
 import Testimonies from "./components/testimonies/testimonies";
 import Contact from "./components/contact/contact";
 import CarouselMid from "./components/carouselMid/carouselMid";
-import { BrowserRouter } from "react-router-dom";
 import video from "../src/components/video/dactWayVideo.mp4";
 import "./App.css";
 import $ from 'jquery';

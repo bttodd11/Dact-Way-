@@ -4,10 +4,6 @@ import image2 from '../img/roomWindow.png';
 import image3 from '../img/garageWash.png';
 import image4 from '../img/roomClean2.jpeg';
 import image5 from '../img/window.png'
-
-
-
-
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import "./carousel.css"

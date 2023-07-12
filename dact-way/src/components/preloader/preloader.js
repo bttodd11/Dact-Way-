@@ -7,7 +7,7 @@ const preloader = () => {
 
   return(
     <div id="preloaderSection">
-          <img className="preLoadImg"  src={preLoaderImage} />
+          <img className="preLoadImg" alt="Preloader Image"  src={preLoaderImage} />
     </div>
   )
 
