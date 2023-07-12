@@ -13,7 +13,7 @@ import video from "../src/components/video/dactWayVideo.mp4";
 import "./App.css";
 import $ from 'jquery';
 
-const App = () => {
+function App() {
 
   const removePreLoader = () => {
     $('.preLoader').hide();
