@@ -10,7 +10,6 @@ const preloader = () => {
           <img className="preLoadImg" alt="Preloader Image"  src={preLoaderImage} />
     </div>
   )
-
 }
 
 export default preloader;

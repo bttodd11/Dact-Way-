@@ -36,14 +36,10 @@
 
 /* Portrait View */
 @media (min-width: 315px) and (max-width: 450px) {
-    .contactCard{
-    width: 80%;
-    }
     .contactIcon{
         height: 50px;
         width: 50px;
     }
-
 }
 
 /* Landscape View */

@@ -3,12 +3,10 @@
     filter: brightness(30%);
 }
 
-
 /* Portrait View */
 @media (min-width: 315px) and (max-width: 450px) {
     .carouselImage {
         height: 300px;
         border: 1px solid black !important;
     }
-  
   }

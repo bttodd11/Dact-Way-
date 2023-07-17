@@ -9,31 +9,29 @@ a {
   margin: 0% 2% 0% 2% !important;
   text-decoration: none !important;
   font-family: 'Josefin Sans', sans-serif;
-    font-size: 15px;
-
+  font-size: 15px;
 }
 
 .icon {
   width: 60px;
   height: 60px;
   float: left;
+  margin: 3%;
+
 }
 
-
-/* Portrait View */
-@media (min-width: 315px) and (max-width: 450px) {
-  .navLink {
+.navLink {
     margin: 1%;
   }
 
-  .navTextSection {
+.navTextSection {
     width: 100%;
     font-size: 18px;
   }
 
-  .icon {
-    margin: 3%;
-  }
+
+/* Portrait View */
+@media (min-width: 315px) and (max-width: 450px) {
 
 }
 
@@ -73,7 +71,6 @@ a {
     text-align: right;
     width: 100%;
     float: right !important;
-
   }
 
   .icon {

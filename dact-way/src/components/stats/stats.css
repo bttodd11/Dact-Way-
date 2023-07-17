@@ -26,11 +26,7 @@
 }
 
 /* Portrait View */
-@media (min-width: 315px) and (max-width: 450px) {
-    .statText {
-        font-size: 12px;
-    }
-  }
+@media (min-width: 315px) and (max-width: 450px) {}
   
   /* Landscape View */
   @media (min-width: 568px) and (max-width: 745px) {}
