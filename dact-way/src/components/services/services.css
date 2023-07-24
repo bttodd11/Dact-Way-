@@ -1,5 +1,5 @@
 #servicesSection {
-    background-color: #c8c7bc;
+    background-color: white;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -12,17 +12,18 @@
     text-align: center;
     font-size: 65px;
     letter-spacing: 5px;
-    color: #c8c7bc;
+    color: #689B41;
     text-shadow:
-        0 0 5px black,
-        0 0 50px #fff,
-        0 0 20px black,
-        0 0 20px black,
-        0 0 70px black,
-        0 0 70px #c8c7bc,
-        0 0 70px #c8c7bc;
-    font-family: 'Shadows Into Light', cursive;
-    padding-top: 4%;
+    0 0 5px black,
+    0 0 50px #fff,
+    0 0 10px #fff,
+    0 0 5px black,
+    0 0 10px black,
+    0 0 20px #689B41,
+    0 0 10px #689B41;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 4%;
+        text-decoration: underline;
 }
 
 .servicesHeadlineText {
@@ -35,6 +36,7 @@
     font-size: 22px;
     text-align: center;
     font-weight: 900;
+    text-decoration: underline;
 }
 
 .servicesText {
@@ -68,11 +70,13 @@
     font-size: 35px;
     text-align: center;
     text-decoration: underline;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Montserrat', sans-serif;
+    color: #689B41;
 }
 
 #servicesOffering {
     margin-bottom: 10%;
+    margin-top: 6%;
 }
 
 /* Portrait View */
@@ -107,7 +111,9 @@
     }
 
     .serviceIcon {
-        height: 150px !important;
+        height: 200px !important;
+        width: 250px;
+        margin-bottom: 10%;
     }
 
     .servicesBoldHeader {

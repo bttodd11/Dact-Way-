@@ -12,7 +12,7 @@ let stats = () => {
     <div id="statsSection">
 <Container fluid>
   <Row className="justify-content-center">
-    <Col sm={12} md={6}>
+    <Col sm={12} md={6} lg={6}>
     <Card className="cardBorder">
     <Card.Img variant="top" className="usIcon" src={unitedStates} />
       <Card.Body>
@@ -28,7 +28,7 @@ let stats = () => {
     </Card>
     </Col>
 
-<Col sm={12} md={6}>
+<Col sm={12} md={6} lg={6}>
     <Card className="cardBorder">
     <Card.Img variant="top" className="usIcon" src={texas} />
       <Card.Body>
