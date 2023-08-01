@@ -15,12 +15,12 @@
     color: #689B41;
     text-shadow:
     0 0 5px black,
-    0 0 50px #fff,
-    0 0 10px #fff,
+    0 0 5px #fff,
+    0 0 5px #fff,
+    0 0 3px black,
     0 0 5px black,
-    0 0 10px black,
-    0 0 20px #689B41,
-    0 0 10px #689B41;
+    0 0 5px #689B41,
+    0 0 5px #689B41;
         font-family: 'Montserrat', sans-serif;
         padding-top: 4%;
         text-decoration: underline;
@@ -31,12 +31,12 @@
     font-size: 14px;
     margin-bottom: 10%;
 }
-
 .servicesBoldHeader {
     font-size: 22px;
     text-align: center;
     font-weight: 900;
     text-decoration: underline;
+    color: #689B41;
 }
 
 .servicesText {
@@ -118,6 +118,7 @@
 
     .servicesBoldHeader {
         font-size: 30px;
+        color: #689B41;
     }
 
     .servicesText {
@@ -129,6 +130,7 @@
         font-weight: 700;
         text-align: center;
     }
+
 
     .servicesMidTitle {
         font-size: 45px;

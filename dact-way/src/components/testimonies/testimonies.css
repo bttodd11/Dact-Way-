@@ -9,12 +9,12 @@
     color: #689B41;
     text-shadow: 
     0 0 5px black,
-    0 0 50px #fff,
-    0 0 10px #fff,
+    0 0 5px #fff,
+    0 0 5px #fff,
+    0 0 3px black,
     0 0 5px black,
-    0 0 10px black,
-    0 0 20px #689B41,
-    0 0 10px #689B41;
+    0 0 5px #689B41,
+    0 0 5px #689B41;
     font-family: 'Montserrat', sans-serif;
     text-decoration: underline;
      padding-top: 4%;
@@ -28,13 +28,12 @@
     font-weight: 900;
 }
 .dactWay {
-    color: #FFD700;
+    color: #689B41;
     letter-spacing: 3px;
     font-family: 'Caveat', cursive;
     text-shadow:
     0 0 13px black,
     0 0 20px white,
-    0 0 10px #FFD700
 }
 .quote {
     font-family: 'Ysabeau SC', sans-serif;
