@@ -1,34 +1,37 @@
 #testimoniesSection {
-    background-color: white;
+    background-color: #689B41;
+    margin-top: 10% !important;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
+    border-radius: 15px;
+    width: 95%;
+    margin: auto;
 }
 
 .testimoniesTitle {
-    font-size: 65px;
+    font-size: 45px;
     text-align: center;
     letter-spacing: 5px;
-    color: #689B41;
+    color: white;
     text-shadow: 
     0 0 5px black,
     0 0 5px #fff,
     0 0 5px #fff,
-    0 0 3px black,
-    0 0 5px black,
-    0 0 5px #689B41,
-    0 0 5px #689B41;
+    0 0 3px #fff,
+    0 0 5px #fff;
     font-family: 'Montserrat', sans-serif;
     text-decoration: underline;
-     padding-top: 4%;
-
+     padding-top: 1%;
 }
 .testimoniesBox {
     text-align: center;
+    color: white;
 }
 .author {
     font-style: italic;
     font-weight: 900;
 }
 .dactWay {
-    color: #689B41;
+    color: white;
     letter-spacing: 3px;
     font-family: 'Caveat', cursive;
     text-shadow:
@@ -51,10 +54,15 @@
   /* Desktop */
   @media (min-width: 992px) {
 
+    #testimoniesSection {
+        background-color: #689B41;
+        margin-top: 10%;
+    }
+    
     .testimoniesTitle {
         font-size: 85px;
     }
     .quote {
-        font-size: 20px;
+        font-size: 25px;
     }
   }

@@ -1,7 +1,7 @@
 #aboutSection {
   text-align: center;
-  background-color: white;
   margin-top: -2%;
+  background-color: white;
 }
 
 .aboutTitle {
@@ -17,13 +17,22 @@
     0 0 5px #689B41;
   letter-spacing: 5px;
   font-family: 'Montserrat', sans-serif;
-   padding-top: 4%;
+  padding-top: 4%;
   text-decoration: underline;
 }
 
 .aboutText {
   text-align: center;
-  font-family: 'Josefin Sans', sans-serif;}
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #689B41;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
+  border-radius: 15px;
+  padding: 3%;
+  color: white;
+  font-size: 20px;
+  width: 90%;
+  margin: auto;
+}
 
 .promiseTitle {
   text-align: center;
@@ -38,6 +47,7 @@
     0 0 5px black,
     0 0 5px #689B41,
     0 0 5px #689B41;
+    margin-top: 10%;
 }
 
 .promiseText {
@@ -45,7 +55,7 @@
   font-family: 'Josefin Sans', sans-serif;}
 
 .dactWay {
-  color: #689B41;
+  color: black;
   letter-spacing: 3px;
   font-family: 'Caveat', cursive;
   text-shadow:
@@ -74,6 +84,7 @@
     padding-top: 5%;
     font-size: 90px;
     letter-spacing: 12px;
+    margin-top: 1%;
   }
 
   .aboutText {

@@ -7,8 +7,8 @@ import "./testimonies.css";
 let testimonies = () => {
   return (
     <div id="testimoniesSection">
-      <Container>
-        <Row>
+        <div className="justify-content-center">
+        <Row className="justify-content-center">
           <p className="testimoniesTitle">Testimonies</p>
         </Row>
         <Row>
@@ -43,7 +43,7 @@ let testimonies = () => {
             </div>
           </Col>
         </Row>
-      </Container>
+        </div>
     </div>
   );
 };

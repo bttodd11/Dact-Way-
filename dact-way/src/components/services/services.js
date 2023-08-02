@@ -12,7 +12,7 @@ let services = () => {
 
   return(
     <div id="servicesSection">
-    <Container fluid>
+    <Container>
       <Row>
         <Col sm="12"><h5 className="servicesTitle">Services</h5></Col>
       </Row>
@@ -40,7 +40,8 @@ let services = () => {
         </Col>
         </Row>
         </div>
-      <Row className="justify-content-center">
+        <div id="servicesMidOffering">
+       <Row className="justify-content-center">
         <p className="servicesMidTitle">DACT Way Services</p>
         <p className="servicesHeadlineText">We work with all types of facilities</p>
         <Col xs="6" sm="6" md="2" lg="2">
@@ -70,6 +71,7 @@ let services = () => {
           <p className="servicesTextIcon">ChildCare</p>
         </Col>
         </Row>
+        </div>
       <Row>
         <div id="servicesDetails">
       <Row className="justify-content-center">
