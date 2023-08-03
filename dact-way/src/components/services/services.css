@@ -1,7 +1,6 @@
 #servicesSection {
     background-color: white;
     font-family: 'Josefin Sans', sans-serif;
-    
 }
 
 #servicesDetails {
@@ -14,6 +13,7 @@
     font-size: 65px;
     letter-spacing: 5px;
     color: #689B41;
+    margin-top: 15%;
     text-shadow:
     0 0 5px black,
     0 0 5px #fff,
@@ -76,6 +76,12 @@
     text-decoration: underline;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    text-shadow: 
+    0 0 5px black,
+    0 0 5px #fff,
+    0 0 5px #fff,
+    0 0 3px #fff,
+    0 0 5px #fff;
 }
 
 #servicesOffering {
@@ -114,11 +120,12 @@
     }
 
     #servicesDetails {
-        margin-top: 5%;
+        margin-top: 3%
     }
 
     .servicesTitle {
         font-size: 85px;
+        margin-top: 1%;
     }
 
     .serviceIcon {

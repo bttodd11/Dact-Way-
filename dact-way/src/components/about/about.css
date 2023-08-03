@@ -27,11 +27,12 @@
   background-color: #689B41;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
   border-radius: 15px;
-  padding: 3%;
+  padding: 5%;
   color: white;
-  font-size: 20px;
-  width: 90%;
+  font-size: 18px;
+  width: 85%;
   margin: auto;
+  margin-top: 5% !important;
 }
 
 .promiseTitle {
@@ -47,12 +48,14 @@
     0 0 5px black,
     0 0 5px #689B41,
     0 0 5px #689B41;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 .promiseText {
   text-align: center;
-  font-family: 'Josefin Sans', sans-serif;}
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 10%;
+}
 
 .dactWay {
   color: black;
