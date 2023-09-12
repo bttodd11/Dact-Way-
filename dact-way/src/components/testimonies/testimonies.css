@@ -9,19 +9,16 @@
 }
 
 .testimoniesTitle {
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     letter-spacing: 5px;
     color: white;
-    text-shadow: 
-    0 0 5px black,
-    0 0 5px #fff,
-    0 0 5px #fff,
-    0 0 3px #fff,
-    0 0 5px #fff;
     font-family: 'Montserrat', sans-serif;
     text-decoration: underline;
     padding-top: 1%;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px black;
+
 }
 .testimoniesBox {
     text-align: center;

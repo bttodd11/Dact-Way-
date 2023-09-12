@@ -4,21 +4,15 @@
 }
 
 .contactTitle {
-    font-size: 65px;
+    font-size: 40px;
     text-align: center;
     letter-spacing: 5px;
     color: #689B41;
-    text-shadow: 
-    0 0 5px black,
-    0 0 5px #fff,
-    0 0 5px #fff,
-    0 0 3px black,
-    0 0 5px black,
-    0 0 5px #689B41,
-    0 0 5px #689B41;
     font-family: 'Montserrat', sans-serif;
     text-decoration: underline; 
     padding-top: 4%;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px black;
 }
 
 .contactCard {

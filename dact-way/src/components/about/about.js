@@ -1,17 +1,17 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
+import Card from "react-bootstrap/Card";
 import "./about.css";
 
 let about = () => {
   return (
     <div id="aboutSection">
       <Container>
-        <Row>
-          <p className="aboutTitle">About Us</p>
-        </Row>
+
         <Row>
           <p className="aboutText">
+          <p className="aboutTitle">About Us</p>
            <span className="dactWay"> DACT Way </span> was established on the belief that quality workmanship and
             honesty are the keys to true customer satisfaction. Headquartered in
             Dallas, Texas, our extensive portfolio consists of retail chains,
@@ -23,16 +23,20 @@ let about = () => {
             being handled by qualified personnel.
           </p>
         </Row>
+   
+        </Container>
         <Row>
-          <p className="promiseTitle">Our Promise</p>
-        </Row>
-        <Row>
-          <p className="promiseText">
+        <Card className="promiseCard">
+      <Card.Body>
+      <Card.Text className="promiseText">
+      <p className="promiseTitle">Our Promise</p>
+
             The clients peace of mind is our prime focus! We guarantee
             high-quality work to your total satisfaction!!
-          </p>
+            </Card.Text>
+      </Card.Body>
+    </Card>
         </Row>
-      </Container>
     </div>
   );
 };
