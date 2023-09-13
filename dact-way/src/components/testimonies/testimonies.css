@@ -2,7 +2,7 @@
     background-color: #689B41;
     margin-top: 10% !important;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
-    border-radius: 15px;
+    border-radius: 10px;
     width: 95%;
     margin: auto;
     padding: 5%;
@@ -61,7 +61,7 @@
     }
     
     .testimoniesTitle {
-        font-size: 85px;
+        font-size: 70px;
     }
     .quote {
         font-size: 25px;

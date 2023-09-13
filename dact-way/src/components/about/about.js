@@ -8,7 +8,6 @@ let about = () => {
   return (
     <div id="aboutSection">
       <Container>
-
         <Row>
           <p className="aboutText">
           <p className="aboutTitle">About Us</p>
@@ -21,11 +20,22 @@ let about = () => {
             offer can be tailored to meet your needs and our company is fully
             licensed and insured, giving you the confidence that your job is
             being handled by qualified personnel.
+            <div>
+            <Card className="promiseCard">
+      <Card.Body>
+      <Card.Text className="promiseText">
+      <p className="promiseTitle">Our Promise</p>
+            The clients peace of mind is our prime focus! We guarantee
+            high-quality work to your total satisfaction!!
+            </Card.Text>
+      </Card.Body>
+    </Card>
+    </div>
           </p>
+          
         </Row>
-   
         </Container>
-        <Row>
+        {/* <Row>
         <Card className="promiseCard">
       <Card.Body>
       <Card.Text className="promiseText">
@@ -36,7 +46,7 @@ let about = () => {
             </Card.Text>
       </Card.Body>
     </Card>
-        </Row>
+        </Row> */}
     </div>
   );
 };

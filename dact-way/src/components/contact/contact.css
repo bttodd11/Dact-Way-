@@ -1,16 +1,17 @@
 #contactSection {
     background-color: white;
-    padding-bottom: 20%;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 
 .contactTitle {
     font-size: 40px;
     text-align: center;
     letter-spacing: 5px;
-    color: #689B41;
+    color: black;
+    opacity: .5;
     font-family: 'Montserrat', sans-serif;
-    text-decoration: underline; 
-    padding-top: 4%;
+    padding-top: 1%;
     font-weight: 900;
     text-shadow: 1px 1px 2px black;
 }
@@ -46,11 +47,12 @@
 /* Desktop */
 @media (min-width: 992px) {
     #contactSection {
-        padding-bottom: 7%;
+        padding-top: 4%;
+        padding-bottom: 4%;
         margin: auto;
     }
     .contactTitle {
-        font-size: 85px;
+        font-size: 50px;
     }
     .contactCard {
         width: 40%;
@@ -60,8 +62,8 @@
     .contactIcon {
         margin-left: 5%;
         margin-right: 5%;
-        height: 60px;
-        width: 60px;
+        height: 50px;
+        width: 50px;
     }
 
 

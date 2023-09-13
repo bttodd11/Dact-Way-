@@ -10,10 +10,10 @@ let contact = () => {
   return (
     <div id="contactSection">
       <Container>
-      <p className="contactTitle">Contact</p>
       <Card className="contactCard">
       <Card.Body>
       <Card.Text className="statText">
+      <p className="contactTitle">Contact</p>
           <a href="https://www.facebook.com/dactway"><img src={facebookIcon} alt="Facebook Icon" className="contactIcon" /></a>
           <a href="https://www.instagram.com/dactway/"><img src={instagramIcon} alt="Instagram Icon" className="contactIcon" /></a>
           <a href="mailto:Dactwayservices@gmail.com"><img src={emailIcon} alt="Email Icon" className="contactIcon" /></a>
