@@ -1,19 +1,21 @@
 #contactSection {
     background-color: white;
-    padding-top: 4%;
+    padding-top: 7%;
     padding-bottom: 7%;
 }
 
 .contactTitle {
     font-size: 40px;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 8px;
     color: black;
     opacity: .5;
     font-family: 'Montserrat', sans-serif;
     padding-top: 1%;
     font-weight: 900;
     text-shadow: 1px 1px 2px black;
+    -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
 }
 
 .contactCard {
